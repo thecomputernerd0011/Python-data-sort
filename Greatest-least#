@@ -1,1 +1,27 @@
 
+import numpy as np
+import time
+
+def random_integers_array(length, min_value,max_value): 
+#defining a function to genersate a random array
+# get rid of this function and add a new one to put in an array
+    return np.random.randint(min_value, max_value +1 , size = length)
+
+def get_array():
+	i = input("How many numbers are in your array?")
+		for i in range:
+      	a = input("Number {i}:")
+                               
+def is_sorted(array):   
+    return all(array[i] <= array[i + 1] for i in range(len(array)-1))
+                                  
+                                  
+start_time = time.time()
+array = random_integers_array(1000000, 1,10)
+
+#array = [1,2,3,4,5]
+print(array)
+print(is_sorted)(array)
+end_time = time.time() 
+execution_time = end_time - start_time                                  
+print(f"{execution_time:.6f} seconds")                                  
