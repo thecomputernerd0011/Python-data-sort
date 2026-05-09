@@ -1,4 +1,10 @@
 import numpy as np
 
-a = [1,2,3,4]
-append(a,5)
+
+a = []
+print("Enter your numbers one by one, enter End to finish creating your sequence")
+player_input = input("")
+if player_input == End:
+  Return a
+else:
+append(a,player_input)
